@@ -1,0 +1,48 @@
+/*******************************************/
+/*
+/*
+/*
+/*
+/*
+/********************************************/
+
+@font-face {
+    font-family: titulos;
+    src: url();
+}
+
+@font-face {
+    font-family: texto;
+    src: url();
+}
+
+* {box-sizing: border-box;} 
+
+body {background-color: blueviolet;
+    background-image: url(../IMG/collection-ingredients-blackboard_23-2148678863.jpg);
+    background-size: 50%;}
+
+#wrapper {background-color: white;
+        width: 60%;                    /* width va en %  */
+        margin: auto;
+        padding: 10%;
+        border-radius: 20px;}  
+
+h1 {border: 2px solid red;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: -15px 15px 15px gray;}
+
+blockquote {border-left: 3px solid blueviolet;
+            padding: 10px;
+            font-style: italic;
+            background-color: darkgrey;} 
+
+#foto1 {width: 100%;             /* A todo el ancho donde esta */
+        margin: auto;            /*A todo el ancho donde esta colocada en este caso del wrapper*/
+        display: block;}         /* Para que se comporte como un bloque */    
+
+dt {font-weight: bold;
+    font-size: 1em;
+    color: red;}
